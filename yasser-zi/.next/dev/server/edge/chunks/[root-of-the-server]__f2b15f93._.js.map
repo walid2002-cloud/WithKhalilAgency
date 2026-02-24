@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/middleware.ts"],"sourcesContent":["import { withAuth } from \"next-auth/middleware\"\n\nexport default withAuth({\n  callbacks: {\n    authorized: ({ token }) => !!token,\n  },\n})\n\nexport const config = { matcher: [\"/dashboard/:path*\"] }\n"],"names":[],"mappings":";;;;;;AAAA;;uCAEe,IAAA,8JAAQ,EAAC;IACtB,WAAW;QACT,YAAY,CAAC,EAAE,KAAK,EAAE,GAAK,CAAC,CAAC;IAC/B;AACF;AAEO,MAAM,SAAS;IAAE,SAAS;QAAC;KAAoB;AAAC"}}]
+}
