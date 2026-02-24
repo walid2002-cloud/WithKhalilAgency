@@ -15,7 +15,7 @@ const STORAGE_KEY = "with-khalil-locale";
 type LanguageContextType = {
   locale: Locale;
   setLocale: (locale: Locale) => void;
-  t: (typeof translations)["fr"];
+  t: (typeof translations)[Locale];
   isRtl: boolean;
 };
 
