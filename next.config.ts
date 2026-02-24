@@ -29,10 +29,6 @@ const nextConfig: NextConfig = {
     config.resolve.roots = [projectRoot];
     return config;
   },
-  experimental: {
-    // Forcer la résolution des modules depuis la racine du projet (évite .Trash comme contexte)
-    resolveRoot: projectRoot,
-  },
 };
 
 export default nextConfig;
