@@ -9,6 +9,9 @@ const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 export const metadata: Metadata = {
   title: "With Khalil | Digital Marketing & Video Production",
   description: "A high-end digital marketing and video production agency converting teachers/trainers into clients.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
